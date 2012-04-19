@@ -7,6 +7,7 @@ LOCAL_SRC_FILES := unbootimg.c
 LOCAL_STATIC_LIBRARIES := libmincrypt
 
 LOCAL_MODULE := unbootimg
+LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_HOST_EXECUTABLE)
 
